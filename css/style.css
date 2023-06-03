@@ -73,6 +73,11 @@ section div {
   border: 1px solid #18181844;
 }
 
+section div p {
+  text-align: justify;
+  word-break: break-all;
+}
+
 .todo-done {
   text-decoration: line-through;
   font-style: italic;
