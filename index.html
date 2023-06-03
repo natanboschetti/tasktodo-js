@@ -17,7 +17,12 @@
       <header class="header-container">
         <form id="todoForm">
           <label for="inputTodo"></label>
-          <input type="text" id="inputTodo" placeholder="Adicione sua tarefa" />
+          <input
+            type="text"
+            id="inputTodo"
+            placeholder="Adicione sua tarefa"
+            aria-autocomplete="none"
+          />
           <button type="submit"><i class="bi bi-plus"></i></button>
         </form>
       </header>
@@ -25,13 +30,13 @@
       <section class="todo-list">
         <div class="todo-container todo-done" id="todoContainer">
           <p>Estudar JavaScript</p>
-          <button><i class="bi bi-check-lg"></i></button>
-          <button><i class="bi bi-x-lg"></i></button>
+          <button id="finishTodo"><i class="bi bi-check-lg"></i></button>
+          <button id="removeTodo"><i class="bi bi-x-lg"></i></button>
         </div>
         <div class="todo-container" id="todoContainer">
           <p>Terminar projeto To-Do com JS</p>
-          <button><i class="bi bi-check-lg"></i></button>
-          <button><i class="bi bi-x-lg"></i></button>
+          <button id="finishTodo"><i class="bi bi-check-lg"></i></button>
+          <button id="removeTodo"><i class="bi bi-x-lg"></i></button>
         </div>
       </section>
     </main>
