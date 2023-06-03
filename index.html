@@ -12,5 +12,28 @@
     <script src="js/main.js" defer></script>
     <title>Task To-Do</title>
   </head>
-  <body></body>
+  <body>
+    <main class="main-container">
+      <header class="header-container">
+        <form id="todoForm">
+          <label for="inputTodo"></label>
+          <input type="text" id="inputTodo" />
+          <button type="submit"><i class="bi bi-plus"></i></button>
+        </form>
+      </header>
+      <!-- <section class="search-container"></section> -->
+      <section class="todo-list">
+        <div class="todo-container todo-done" id="todoContainer">
+          <p>Estudar JavaScript</p>
+          <button><i class="bi bi-check-lg"></i></button>
+          <button><i class="bi bi-x-lg"></i></button>
+        </div>
+        <div class="todo-container" id="todoContainer">
+          <p>Terminar projeto To-Do com JS</p>
+          <button><i class="bi bi-check-lg"></i></button>
+          <button><i class="bi bi-x-lg"></i></button>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
