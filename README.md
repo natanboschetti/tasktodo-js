@@ -8,4 +8,4 @@ O foco do projeto é a manipulação do DOM utilizando o JavaScript
 - JavaScript
 
 # Projeto
-[Pages](natanboschetti.github.io/tasktodo-js)
+[Pages](https://natanboschetti.github.io/tasktodo-js)
