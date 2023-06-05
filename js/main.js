@@ -49,11 +49,11 @@ document.addEventListener("click", (e) => {
   if (containsFinishClass) {
     //console.log(todoContainerElement);
     todoContainerElement.classList.toggle("todo-done");
-    console.log("finish", containsFinishClass);
+    //console.log("finish", containsFinishClass);
   }
   if (containsRemoveClass) {
-    console.log(targetElementParent);
+    //console.log(targetElementParent);
     targetElementParent.remove();
-    console.log("remove", containsRemoveClass);
+    //console.log("remove", containsRemoveClass);
   }
 });
