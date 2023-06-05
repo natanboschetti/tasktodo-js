@@ -3,7 +3,6 @@ const inputTodo = document.querySelector("#inputTodo");
 const todoList = document.querySelector("#todoList");
 const todoContainer = document.querySelector("#todoContainer");
 
-let todoContainerElement;
 function saveTodoInContainer(todoText) {
   //console.log(`salvo: ${todoText}`);
 
@@ -48,7 +47,7 @@ document.addEventListener("click", (e) => {
   const containsRemoveClass = targetElement.classList.contains("remove-todo");
   if (containsFinishClass) {
     //console.log(todoContainerElement);
-    todoContainerElement.classList.toggle("todo-done");
+    targetElementParent.classList.toggle("todo-done");
     //console.log("finish", containsFinishClass);
   }
   if (containsRemoveClass) {
